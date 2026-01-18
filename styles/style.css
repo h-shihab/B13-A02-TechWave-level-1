@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+
+/* shared style */
+.content{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.none{
+    display: none;
+}
+.btn{
+      background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+    padding: 12px 16px;
+    border-radius: 10000px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    gap: 4px;
+}
+.btn1{
+   background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 10000px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    font-weight: 600;
+    gap: 4px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.display-flex{
+    display: flex;
+}
+
+header, .Podcast{
+     background-color: #1A0B2E;
+     padding-top: 30px;
+     padding-bottom: 30px;
+      border-bottom: 1px solid rgb(173, 170, 170);
+      border-style: none;
+   
+}
+
+
+
+
+.navbar{
+  
+    color: #FFFFFF;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .option li {
+    list-style: none;
+    margin-left: 32px;
+}
+ .option li a{
+    text-decoration: none;
+    color: #ffffffe5;
+ }
+
+ .nav-btn{
+    display: inline;
+ }
+ .hamburger-menu{
+    display: none;
+ }
+
+
+.btn-section{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.banner-content{
+    color: #FFFFFF;
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+/* Podcast section */
+
+.podcast-content{
+    color: #FFFFFF;
+    max-width: 720px;
+    margin: 50px auto 30px auto;
+    justify-content: center;
+    text-align: center;
+
+}
+.podcast-content h1{
+    color: #FFFFFF;
+   font-size: 3rem;
+   font-weight: bold;
+
+}
+
+.paragraph{
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+hr{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #848080 ;
+}
+
+.rating{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+   
+}
+
+.rating-card {
+max-width: 240px;
+margin: 0 auto;
+}
+.rating-card h1{
+color: #00FF88;
+font-size: 3rem;
+margin-top: 50px;
+margin-bottom: 16px;
+}
+
+
+
+
+/* Choose-Techwave section */
+
+.Choose-Techwave{
+     background-color: #230E3D;
+     border-style: none;
+     padding-bottom: 120px;
+}
+ .grid-card{
+    max-width: 1200px;
+     margin: 0 auto;
+   color: #FFFFFF;
+}
+
+.choose-h2{
+   padding-top: 120px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+   
+}
+
+.grid-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+
+
+
+.all-margin h2,p,img{
+    margin-bottom: 16px;
+}
+
+.all-margin h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.all-margin p{
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: .6;
+}
+.card-1{
+   grid-row: span 2;
+   background-color: rgba(53, 17, 101, 0.4);
+   border-radius: 40px;
+   padding: 40px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.card-2{
+       grid-column: span 2;
+   background-color: rgba(53, 17, 101, 0.4);
+   border-radius: 40px;
+    padding: 40px;
+}
+.card-3{
+       grid-column: span 2;
+   background-color: rgba(53, 17, 101, 0.4);
+   border-radius: 40px;
+    padding: 40px;
+}
+.card-4{
+       grid-column: span 2;
+   background-color: rgba(53, 17, 101, 0.4);
+   border-radius: 40px;
+    padding: 40px;
+}
+.card-5{
+      
+   background-color: rgba(53, 17, 101, 0.4);
+   border-radius: 40px;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* responsive-section */
+@media screen  and (max-width:576px) {
+/* nav-section */
+ .navbar{
+    color: #FFFFFF;
+    margin: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+    .nav-option{
+    display: none;
+ }
+
+ .hamburger-menu{
+    display: inline;
+ }
+
+ .nav-btn{
+    display: none;
+ }
+
+
+
+
+
+ /* Podcast section */
+.podcast-content{
+    color: #FFFFFF;
+    max-width: 400px;
+    margin: 0px auto;
+    justify-content: center;
+    text-align: center;
+
+}
+.content{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.paragraph {
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+hr{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #848080 ;
+}
+.rating {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     text-align: center;
+}
+.rating-card {
+    max-width: 180px;
+    margin: 0 auto;
+}
+.rating-card h1 {
+    color: #00FF88;
+    font-size: 2.5rem;
+}
+
+/* Choose-Techwave section */
+.choose-h2 {
+    padding-top: 40px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+.grid-card{
+    max-width: 500px;
+     margin: 0 auto;
+}
+
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    margin-top: 16px;
+  
+   
+}
+
+.card-1 {
+  grid-row: span 1;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2{
+       grid-column: span 1;
+   background-color: rgba(53, 17, 101, 0.4);
+   border-radius: 40px;
+    padding: 24px;
+}
+.card-3{
+       grid-column: span 1;
+   background-color: rgba(53, 17, 101, 0.4);
+   border-radius: 40px;
+    padding: 24px;
+}
+.card-4{
+       grid-column: span 1;
+   background-color: rgba(53, 17, 101, 0.4);
+   border-radius: 40px;
+    padding: 24px;
+}
+}
+ 
