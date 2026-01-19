@@ -239,7 +239,7 @@ hr{
 max-width: 240px;
 margin: 0 auto;
 }
-.rating-card h1{
+.rating-card .color{
 color: #00FF88;
 font-size: 3rem;
 margin-top: 50px;
