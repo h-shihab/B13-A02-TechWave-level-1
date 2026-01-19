@@ -74,6 +74,13 @@ header, .Podcast,  .Features, .Host{
     align-items: center;
 }
 
+.nav-head span {
+    background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text; 
+    color: transparent; 
+}
+
+
  .option li {
     list-style: none;
     margin-left: 32px;
@@ -85,6 +92,8 @@ header, .Podcast,  .Features, .Host{
 
  .nav-btn{
     display: inline;
+   
+
  }
  .hamburger-menu{
     display: none;
@@ -191,11 +200,11 @@ margin-bottom: 16px;
 }
 
 
-
-
-.all-margin h2,p,img{
+.box img,h2,p{
     margin-bottom: 16px;
 }
+
+
 
 .all-margin h2{
     font-size: 1.5rem;
@@ -268,6 +277,7 @@ background-color: #250D44;
 
 }
 
+
 .yt-cards iframe{
     border-top-left-radius: 24px;
     border-top-right-radius: 24px ;
@@ -324,33 +334,37 @@ border-radius: 24px;
     border: 1px solid #533C72 ;
     border-radius: 50%;
     padding-top: 15px;
+
 }
 .images img{
     display: flex;
     justify-content: center;
     align-items: center;
+       margin-bottom: 16px;
 }
 
 
 
 /* Footer  section */
 .footer-section{
-    border: 1px solid red;
-    z-index: 3;
-      /* background-color: #230E3D; */
+
+      background-color: #230E3D;
      border-style: none;
      text-align: center;
      padding-bottom: 120px;
-     padding-top: 140px;
+     padding-top: 130px;
      background-image: url(../assets/footer-bg.png);
      background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .footer-section h1{
     font-size: 3rem;
     color: #FFFFFF;
     margin-bottom: 16px;
+    
 }
+
 .footer-icons{
     display: flex;
     justify-content: center;
@@ -360,10 +374,22 @@ border-radius: 24px;
 }
 
 .footer-per-icons{
-    /* justify-content: center;
-    align-items: center; */
+   
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
+.footer-per-icons img{
+    margin-bottom: 10px;
+}
+.fevicon{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding-left: 60px;
+  gap: 30px;
+}
+
 .caption{
     line-height: 24px;
     color: #FAFAFA;
