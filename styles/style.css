@@ -29,6 +29,14 @@
     color: #FFFFFF;
     font-weight: 600;
     gap: 4px;
+    cursor: pointer;
+   transition: padding 3s linear ease-in 1000ms background-color 5s ease-in;
+}
+
+.btn:hover{
+    padding: 16px 20px;
+    background: linear-gradient(to top right,#9100F8,  #FB09B4,#F7E93F );
+    box-shadow: 0 4px  #9100F8 4px;
 }
 .btn1{
    background-color: transparent;
@@ -42,6 +50,7 @@
     border: 1px solid #00FF88;
     font-weight: 600;
     gap: 4px;
+    cursor: pointer;
 }
 
 *{
@@ -234,6 +243,14 @@ margin-bottom: 16px;
     max-width: 1200px;
      margin: 0 auto;
    color: #FFFFFF;
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+.grid-card:hover{
+    box-shadow: ;
 }
 
 .choose-h2{
@@ -245,13 +262,7 @@ margin-bottom: 16px;
    
 }
 
-.grid-card{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 30px;
-    margin-top: 40px;
-}
+
 
 
 .box img,h2,p{
@@ -279,6 +290,15 @@ margin-bottom: 16px;
     justify-content: center;
     align-items: center;
   
+
+}
+.card{
+    transition: transform .5s;
+}
+.card:hover {
+transform: scale(1.05); 
+box-shadow: 0 4px 20px rgba(103, 67, 151, 0.4);
+cursor: pointer;
 
 }
 
@@ -328,9 +348,16 @@ Features Episodes section */
 .yt-cards{
 background-color: #250D44;
  border-radius: 20px;
-
+cursor: pointer;
+}
+.yt-cards{
+    transition: transform .5s;
 }
 
+.yt-cards:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 27px 3px rgba(85, 48, 134, 0.4);;
+}
 
 .yt-cards iframe{
     border-top-left-radius: 24px;
@@ -384,6 +411,7 @@ border-radius: 24px;
     justify-content: start;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 .icons .images{
     display: flex;
@@ -432,9 +460,9 @@ border-radius: 24px;
     align-items: center;
     gap: 40px;
     margin-bottom: 32px;
-      margin-bottom: 20px;
+    margin-bottom: 20px;
     padding-right: 30px;
-
+    cursor: pointer;
 }
 
 .footer-per-icons{
@@ -651,14 +679,14 @@ Features Episodes section */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
 
 .yt-cards iframe{
-    width: 400px;
+    width: 500px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px ;
 }
@@ -688,6 +716,13 @@ Features Episodes section */
     padding-bottom: 30px;
     border-bottom: 1px solid rgb(173, 170, 170);
     border-style: none;
+    
+}
+.challenge-section{
+   
+max-width: 500px;
+margin: 0 auto;
+
 }
 
 /* footer-section */
@@ -712,7 +747,7 @@ Features Episodes section */
 }
 .footer-icons {
     flex-wrap: wrap;
-    max-width: 305px;
+    max-width: 350px;
     margin: 0 auto;
     padding-top: 0px;
     justify-content: center;
